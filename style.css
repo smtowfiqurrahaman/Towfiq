@@ -367,6 +367,44 @@ color: #ddd
     color: #007eff;
 }
 
+/* About Me area Start*/
+.about_area .about_title p{
+  padding: 1rem 7rem;
+}
+.about_area .client{
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+.about_area .client .client-img{
+  padding: 2rem;
+  border-radius: 30px;
+}
+.about_area .client .client-img img{
+  border-radius:10px;
+}
+.about_area .client .about_client{
+  padding-top: 2rem;
+}
+.about_area .client .about_client h4{
+  font: normal 500 21px/20px; 
+}
+.about_area .client .about_client p{
+  font-size: 14px;
+}
+.about_area .owl-carousel .owl-item{
+  display: flex;
+  justify-content: center;
+  padding:1.5rem; 
+}
+.about_area .owl-carousel .owl-dots .owl-dot.active span{
+  background: var(--primary-color);
+  width:12px;
+  height:12px; 
+}
+
+/*About Me area End*/
+
 
 /*Footer*/
 footer.footer_area{
@@ -383,7 +421,7 @@ footer.footer_area .social a>i {
 }
 footer.footer_area .social a>i:hover{
  color:var( --primary-color2);
- transform: rotate(-20deg);
+ transform: rotate(15deg);
  transition: .3s;
 }
 
@@ -397,8 +435,8 @@ footer.footer_area .social a>i:hover{
 	header,
     header.sticky 
 	{
-		padding: 20px 50px;
-		z-index: 1000;
+		padding: 13px 25px;
+    	z-index: 1000;
 	}
 	.menu{
 		position: fixed;
@@ -421,6 +459,7 @@ footer.footer_area .social a>i:hover{
 		right:0;
 		clip-path: circle(800px at 90% -10%);
 		-webkit-clip-path:circle(800px at 90% -10%);
+		padding: 30px 50px;
 	}
 	header ul li a{
 		color: #111;
@@ -461,19 +500,19 @@ footer.footer_area .social a>i:hover{
 	}
 
  .w50 img {
-    /*padding-left: 1rem;*/
+    padding-left: 4rem;
 }
 
 	.banner{
 		padding: 150px 50px 100px;
 	}
 	.banner h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #fff;
     font-weight: 200;
  }
  .banner h2 span {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 .banner h4{
@@ -485,7 +524,7 @@ footer.footer_area .social a>i:hover{
     padding: 10px 20px;
 }
 .heading h2 {
-    font-size: 25px;
+    font-size: 33px;
 }
 .contantBx h4 {
     font-size: 20px;
@@ -497,12 +536,12 @@ footer.footer_area .social a>i:hover{
     margin-bottom: 20px;
 }
 .services{
-	
 	clip-path: none;
-    
 }
 .services .content .servicesBx{
 	margin: 10px;
+    padding: 20px 67px;
+    max-width: 400px;
 }
 .work .content .workBx {
     width: 100%;
@@ -528,7 +567,18 @@ footer.footer_area .social a>i:hover{
 .formbx form input[type="submit"] {
     align-self: center;
 }
-
+.btn {
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 7px 15px;
+    font-weight: 500;
+}
+footer.footer_area .social a>i {
+    font-size: 20px;
+}
+p{    
+	font-size: 14px;
+}
 
 }
 

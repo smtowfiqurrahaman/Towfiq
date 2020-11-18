@@ -34,7 +34,7 @@
 	<!-- Hero section Start-->
  <section class="banner" id="home">
  	<div class="textBx">
- 		<h2>Hello I'm <br> <span>S. M.Towfiqur Rahaman</span></h2>
+ 		<h2>Hello I'm <br><span id="animated"> </span> <!-- <span>S. M.Towfiqur Rahaman</span> --></h2>
  		<h4>I'm a Fornt End And Backend Developer....</h4>
  		<a href="#" class="btn"> About ME</a>
  	</div>
@@ -68,6 +68,7 @@
 	<div class="content">
 		<div class="servicesBx">
 			<img src="./img/icon1.png" alt="">
+			<br><br>
 			<h2>Web Design</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. printing and typesetting industry.
             </p>
@@ -75,6 +76,7 @@
 
 		<div class="servicesBx">
 			<img src="./img/icon2.png" alt="">
+			<br><br>
 			<h2>Wordpress</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. printing and typesetting industry.
             </p>
@@ -82,6 +84,7 @@
 
 		<div class="servicesBx">
 			<img src="./img/icon3.png" alt="">
+			<br><br>
 			<h2>Android App</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. printing and typesetting industry.
             </p>
@@ -89,6 +92,7 @@
 
 		<div class="servicesBx">
 			<img src="./img/icon4.png" alt="">
+			<br><br>
 			<h2>Photo Editing</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. printing and typesetting industry.
             </p>
@@ -96,6 +100,7 @@
 
 		<div class="servicesBx">
 			<img src="./img/icon5.png" alt="">
+			<br><br>
 			<h2>Content Writing </h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. printing and typesetting industry.
             </p>
@@ -103,6 +108,7 @@
 
 		<div class="servicesBx">
 			<img src="./img/icon6.png" alt="">
+			<br><br>
 			<h2>Video Editing</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. printing and typesetting industry.
             </p>
@@ -187,8 +193,8 @@
 </section>
 <!-- Testmonial Area End-->
 
-<!-- Contact section -->
 
+<!-- Contact section -->
 <section class="contact" id="contact">
 	<div class="heading whitee">
 		 <h2>Contact Me </h2>
@@ -215,7 +221,7 @@
 				  </div>
 				   <div class="text">
 				 	<h3>Phone</h3>
-				 	<p>+8742-5658-5689-525 </p>
+				 	<p>+88017XXXXXXX </p>
 				 </div>
 				</div>
 
@@ -225,7 +231,7 @@
 				  </div>
 				   <div class="text">
 				 	<h3>Email</h3>
-				 	<p>yourportfolio@gmail.com </p>
+				 	<p>smtowfiqurrahaman@gmail.com </p>
 				 </div>
 				</div>
 
@@ -255,19 +261,20 @@
         </div>
          <div class="social text-center">
            <h5 class="text-uppercase"> Follow Me</h5>
-           <a href="#"><i class="fab fa-facebook"></i></a>
-           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="https://www.facebook.com/smtoufiqurrahaman12/"><i class="fab fa-facebook"></i></a>
+           <a href="https://www.instagram.com/sm_toufiq/"><i class="fab fa-instagram"></i></a>
            <a href="#"><i class="fab fa-youtube"></i></a>
-           <a href="#"><i class="fab fa-twitter"></i></a>
-           <a href="#"><i class="fab fa-linkedin"></i></a>
+           <a href="https://twitter.com/Smtowfiqur"><i class="fab fa-twitter"></i></a>
+           <a href="https://www.linkedin.com/in/s-m-towfiqur-rahaman/"><i class="fab fa-linkedin"></i></a>
            <a href="#"><i class="fab fa-whatsapp"></i></a>
-           <a href="#"><i class="fab fa-behance"></i></a>
+           <a href="https://www.behance.net/Desigbersmtourahaman/"><i class="fab fa-behance"></i></a>
            <a href="#"><i class="fab fa-medium"></i></a>
            <a href="#"><i class="fab fa-telegram"></i></a>
-           <a href="#"><i class="fab fa-github"></i></a>
-           <a href="#"><i class="fab fa-stack-overflow"></i></a>
-           <a href="#"><i class="fab fa-codepen"></i></a>
+           <a href="https://github.com/smtowfiqurrahaman"><i class="fab fa-github"></i></a>
+           <a href="https://stackoverflow.com/users/14479911/towfiq"><i class="fab fa-stack-overflow"></i></a>
+           <a href="https://codepen.io/towfiq0177"><i class="fab fa-codepen"></i></a>
            <a href="#"><i class="fab fa-reddit"></i></a>
+           <a href="live:.cid.397470dba99ce6bb"><i class="fab fa-skype"></i></a>
          </div>
 
          <div class="copyright text-center">
@@ -281,6 +288,7 @@
 
 <!-- Script section -->
 <!-- header Script -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 	 <script>
 	 	window.addEventListener("scroll",function(){
 	 		var header = document.querySelector("header");
@@ -294,6 +302,25 @@
 	 		menuToggle.classList.toggle("active");
 	 		menu.classList.toggle("active");
 	 	}
+// Type JS Animation
+ var typed = new Typed('#animated', {
+// Waits 1000ms after typing "First"
+   strings: [ ,
+              'S. M. Towfiqur Rahaman',
+              'A Freelancer',
+              'A Web Designer',
+              'A Web Devloper',
+              'A Graphics Designer', 
+           ],
+           backSpeed: 50,
+           loop: true,
+           typeSpeed: 100,
+           showCursor: true,
+           cursorChar: '_',
+           autoInsertCss: true,
+ });
+
+
 
 	 </script>
 </body>
