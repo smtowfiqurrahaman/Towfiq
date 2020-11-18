@@ -435,7 +435,7 @@ footer.footer_area .social a>i:hover{
 	header,
     header.sticky 
 	{
-		padding: 13px 25px;
+		padding: 4px 25px;
     	z-index: 1000;
 	}
 	.menu{
@@ -450,12 +450,12 @@ footer.footer_area .social a>i:hover{
 		background: #fff;
 		clip-path: circle(100px at 90% -10%);
 		-webkit-clip-path:circle(100px at 90% -10%);
-		transition: all .75s ease-out;
+		transition: all .50s ease-out;
 		z-index: 999;
 		border-top: 1px solid rgba(0,0,0,0.2);
 	}
 	.menu.active{
-		top: 75px;
+		top: 61px;
 		right:0;
 		clip-path: circle(800px at 90% -10%);
 		-webkit-clip-path:circle(800px at 90% -10%);
@@ -471,9 +471,9 @@ footer.footer_area .social a>i:hover{
 		transition:.5s ease-out;
 		text-decoration: none;
 	}
-	.toggle{
-		width: 40px;
-		height: 40px;
+	.toggle {
+        width: 30px;
+        height: 20px;
 		background: url(./img/menu.png);
 		background-position:center;
 		background-repeat: no-repeat;
@@ -493,14 +493,14 @@ footer.footer_area .social a>i:hover{
 		filter: invert(1);
 	}
 	section {
-		padding:6rem 3rem;
+		padding:6rem 1rem;
 	}
 	.about{
 		padding:4rem 1.5rem;
 	}
 
  .w50 img {
-        padding-left: 2rem;
+        padding-left: 0rem;
 }
 
 	.banner{
